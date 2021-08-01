@@ -1,0 +1,10 @@
+Console.WriteLine("Dado a seguinte expressão:x + y + d + 5 * 77 + 8 -10 *( 8/3) , Qual é o resultado da operação feita em algoritmo\n ");
+            Console.WriteLine("Digite valor para variavel x\n");
+            double valorx = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Digite valor para variavel y\n");
+            double valory = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Digite valor para variavel x\n");
+            double valord = Convert.ToDouble(Console.ReadLine());
+            double valorexpressao = (valorx + valory + valord) + (5 * 77 ) + 8 -10*(8/3);
+            Console.WriteLine("Valor da expresão é:\n" + valorexpressao.ToString("N2"));
+            Console.ReadKey();

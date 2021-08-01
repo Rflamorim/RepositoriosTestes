@@ -1,0 +1,12 @@
+/ Mensagem de entrada//
+            {Console.WriteLine("Exercicio proposto:\nValkiria é uma empreendedora que vende produtos naturais, ela está querendo fazer um mini programa para vender lentilha Faça um programa que calcule, o valor da lentilha vs o preço do peso. Valor do peso da lentilha: 1,50 o KG\n");}
+            double preco = 0.0015;
+            Console.WriteLine("Olá tudo bem,aqui iremos realizar calculo peso vs valor da lentilha\n");
+            Console.WriteLine("1 KG lentilha = R$ 1,50  e   valor da grama lentilha  sai a  R$ 0,0015\n");
+            Console.WriteLine("Para facilitar calculos  1000 gramas = 1 KG , nesse projeto valor  1 kg custa R$ 1,50 e peso 1 grama  sai custo de R$ 0,0015\n");
+            Console.WriteLine("Qual em  peso em  gramas lentilha:\n");
+            double gramas = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine();
+            double valorpreço = preco * gramas;
+            Console.WriteLine(" Valor preço lentilha é \n R$ " + valorpreço.ToString("N2"));
+            Console.ReadKey();

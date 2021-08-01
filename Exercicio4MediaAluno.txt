@@ -1,0 +1,19 @@
+// media notas aluno ///
+       Console.WriteLine("DIGITE NOME DO ALUNO");
+            String aluno = Console.ReadLine();
+            Console.WriteLine("DIGITE NOTA DO ALUNO");
+            double nota1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("DIGITE NOTA DO ALUNO");
+            double nota2 = Convert.ToDouble(Console.ReadLine());
+            double mediaaluno = (nota1 + nota2) / 2;
+
+            if (mediaaluno >= 5)
+            {
+                Console.WriteLine($" Aluno {aluno} foi aprovado");
+
+            }
+            else
+
+            {
+                Console.WriteLine($" Aluno {aluno} foi reprovado");
+            }
